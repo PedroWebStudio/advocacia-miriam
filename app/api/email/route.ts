@@ -1,8 +1,5 @@
 import { Resend } from "resend";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
-
 const TO = process.env.CONTACT_EMAIL ?? "contato@miriamadvocacia.com.br";
 const FROM = process.env.FROM_EMAIL ?? "contato@miriamadvocacia.com.br";
 
